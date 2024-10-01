@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8f8a8a;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+header a{
+    text-decoration: none;
+    color: #000000;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+li{
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: background-color 0.3s;
+}
+li:hover{
+    background-color: rgb(67, 67, 219);
+}
+
+.section-1{
+    background-image: url(Images/pic-1.jpeg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 100vw;
+    color: rgb(0, 0, 0);
+    background: position:cover;
+    padding: 6rem;
+    
+}
+
+.section-1{
+    text-align: center;
+}
+
+section h2{
+    
+} 
+
+.my-button1{
+    background-color: rgb(232, 64, 198);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    transition: background-color 0.3s;
+    font-size: 30px;
+}
+.my-button1:hover{
+    background-color: rgb(192, 62, 62);
+}
+
+
+.hire{
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+.hire:hover{
+    background-color: rgb(10, 170, 175);
+    color: #000000;
+}
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.about-sub-div{
+    width: 500px;
+}
+
+.about-sub-div h2{
+    font-size: 33px;
+}
+
+.about-sub-div p{
+    margin: 15px 0;
+}
+
+.section-3{
+    padding:30px;
+}
+
+.about-skil{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.skil-sub-div{
+    width: 500px;
+    padding: 50px;
+    text-align: center;
+}
+
+.code-icon{
+    font-size: 50px;
+}
+
+.about-testimoial{
+    display: flex;
+    justify-content: space-around;
+}
+
+form{
+    margin-left: 52rem;
+    margin-top: 2rem;
+}
+
+form input{
+    width: 250px;
+}
+
+form textarea{
+    width: 250px;
+}
+
+.submit-btn{
+    width: 150px;
+    height: 25px;
+    background-color: #000000;
+    color: white;
+}
+
+footer{
+    background-color: #777b7b;
+    height: 30px;
+    color: rgb(229, 126, 126);
+    text-align: center;
+}
