@@ -39,7 +39,7 @@ li:hover{
     background-repeat:no-repeat;
     width: 100vw;
     color: rgb(0, 0, 0);
-    background: position:cover;
+    background-position:cover;
     padding: 6rem;
     
 }
@@ -47,10 +47,6 @@ li:hover{
 .section-1{
     text-align: center;
 }
-
-section h2{
-    
-} 
 
 .my-button1{
     background-color: rgb(232, 64, 198);
